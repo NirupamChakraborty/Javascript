@@ -42,3 +42,24 @@ console.log(whatDoYouWannaBecomeInYourLife);
 console.log(gender);
 console.log(twitterHandle);
 
+// Primitive types
+
+// 1. Number 
+
+let num = 1000000.99;
+
+console.log(num);
+console.log(typeof num);
+
+// BASIC MATH IN JS
+
+console.log(2 + 3);
+console.log(2 - 3);
+console.log(2 * 3);
+console.log(2 / 3);
+console.log(2 % 3);
+console.log(2 ** 3);
+
+let counter = 0;
+counter++;
+console.log(counter);
