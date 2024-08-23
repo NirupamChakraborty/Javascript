@@ -60,6 +60,22 @@ console.log(2 / 3);
 console.log(2 % 3);
 console.log(2 ** 3);
 
+
+// increment and decrement
 let counter = 0;
 counter++;
 console.log(counter);
+
+// .........................
+
+
+let firstFavNum = 99;
+let secondFavNum = 90;
+console.log(firstFavNum + secondFavNum);
+console.log(firstFavNum - secondFavNum);
+console.log(firstFavNum * secondFavNum);
+console.log(firstFavNum / secondFavNum);
+console.log(firstFavNum % secondFavNum);
+console.log(firstFavNum ** secondFavNum);
+
+
