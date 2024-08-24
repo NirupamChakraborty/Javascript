@@ -79,3 +79,51 @@ console.log(firstFavNum % secondFavNum);
 console.log(firstFavNum ** secondFavNum);
 
 
+
+
+//  BOOLEAN --> True \\ false
+
+
+// let isTrue = true;
+// console.log(isTrue);
+
+// let isbool = false;
+// console.log(isbool);
+
+
+
+
+
+
+// NaN --> Not a Number 
+
+let isTrue = NaN;
+
+console.log(isTrue);
+
+let number = 89;
+
+console.log(number + undefined);
+// this will give a NaN
+
+
+
+
+
+// FALSY VALUES IN JAVASCRIPT (falsy)
+
+//       --> null
+//       --> false
+//       --> undefined
+//       --> 0
+//       --> -0
+//       --> NaN 
+//       --> '' , "" ,``, (empty quotes)
+
+
+
+// undefined injs means error but it can be assigned to a variable
+
+let notDefined = undefined;
+
+console.log(notDefined);
