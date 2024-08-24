@@ -125,5 +125,25 @@ console.log(number + undefined);
 // undefined injs means error but it can be assigned to a variable
 
 let notDefined = undefined;
-
 console.log(notDefined);
+
+// difference between null and undefined is that 
+// null can be set by programers and undefined can be set by js compilers
+//  if variable is not assigned to any thing
+let notDefined1 = null;
+console.log(notDefined1);
+
+
+// let notDefined;
+// console.log(notDefined);    --> undefined
+
+
+
+// ...........................
+let isProgramingLanguage = true;
+let isJsHard = false;
+console.log(isProgramingLanguage);
+console.log(isJsHard);
+let favNumb = 99;
+console.log(favNumb + undefined);
+
