@@ -147,3 +147,37 @@ console.log(isJsHard);
 let favNumb = 99;
 console.log(favNumb + undefined);
 
+// .................................
+
+
+
+
+// COMPARISION OPERATORS
+
+// --> Relational Operators
+// --> Equality Operators
+
+
+
+
+// --> Relational Operators
+
+// > Greater then
+// < less than
+// >= greater than or equall to 
+// <= less than or equall to 
+
+console.log(10 > 10); // false
+console.log(10 < 10); // false
+console.log(10 >= 10); // true
+console.log(10 <= 10); // true
+
+// .................................
+
+
+// Equality operators 
+
+
+
+
+ 
