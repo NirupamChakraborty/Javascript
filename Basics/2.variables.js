@@ -197,6 +197,23 @@ console.log(10 == "10");
 console.log(10 != 10);
 console.log(10 != "20");
 
+// ..............................
+
+let firstFavNumb = 99;
+let secondFavNumb = 90;
+console.log(firstFavNumb > secondFavNumb);
+console.log(firstFavNumb < secondFavNumb);
+console.log(firstFavNumb >= secondFavNumb);
+console.log(firstFavNumb <= secondFavNumb);
+console.log(firstFavNumb === secondFavNumb);
+console.log(firstFavNumb == secondFavNumb);
+console.log(firstFavNumb !== secondFavNumb);
+console.log(firstFavNumb != secondFavNumb);
+
+
+
+
+
 
 
 
