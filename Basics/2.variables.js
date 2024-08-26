@@ -195,6 +195,11 @@ console.log(10 !== "90");
 console.log(10 ==10 ); // lose equality
 console.log(10 == "10");
 console.log(10 != 10);
+console.log(10 != "20");
+
+
+
+
 
 
 
