@@ -175,7 +175,28 @@ console.log(10 <= 10); // true
 // .................................
 
 
-// Equality operators 
+// Equality operator
+
+// === (triple equality) strict equality  (type + value) 
+// !== strict not equality operator (type + value)
+// == lose equality operator (value)
+// !=  lose not equality operator (value)
+
+
+
+
+// console.log(10 === 10); strict equality
+// console.log(10 !== 10); strict ineqality
+console.log(10 !== 10);
+console.log(10 !== "10");
+console.log(10 !== 90);
+console.log(10 !== "90");
+
+console.log(10 ==10 ); // lose equality
+console.log(10 == "10");
+console.log(10 != 10);
+
+
 
 
 
