@@ -221,6 +221,8 @@ let firstName = "Sonu";
 let secondName = "Chakraborty";
 let fullName = firstName + secondName;
 console.log(fullName);
+console.log(fullName);
+
 
 
 
