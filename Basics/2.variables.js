@@ -219,8 +219,13 @@ console.log(firstFavNumb != secondFavNumb);
 
 let firstName = "Sonu";
 let secondName = "Chakraborty";
-let fullName = firstName + secondName;
+// let fullName = firstName + secondName;
+// let fullName = firstName + " " + secondName;
 console.log(fullName);
+console.log(fullName);
+
+//  1. CONCATENATION
+let fullName = firstName.concat(secondName);
 console.log(fullName);
 
 
