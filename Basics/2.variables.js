@@ -217,9 +217,10 @@ console.log(firstFavNumb != secondFavNumb);
 
 // STRINGS IN JAVASCRIPT
 
-let firstName = "Sonu"
-let secondName = "Chakraborty"
-console.log();
+let firstName = "Sonu";
+let secondName = "Chakraborty";
+let fullName = firstName + secondName;
+console.log(fullName);
 
 
 
