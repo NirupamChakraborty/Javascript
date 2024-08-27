@@ -225,9 +225,13 @@ console.log(fullName);
 console.log(fullName);
 
 //  1. CONCATENATION
-let fullName = firstName.concat(secondName);
-console.log(fullName);
 
+// let fullName = firstName.concat(secondName);
+// console.log(fullName);
+
+//  2. APPEND
+// firstName += " Nirupam";  Sonu Nirupam 
+console.log(firstName);
 
 
 
