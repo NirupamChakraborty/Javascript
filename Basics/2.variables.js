@@ -346,6 +346,41 @@ console.log(messege);
 
 
 
+
+
+
+//   TYPE CONVERSION IN JS
+
+let money = "50";
+// console.log(typeof money); // STRING
+
+
+
+// CONVERT STRING TO NUMBER 
+
+// money = parseInt(money);  // parse method is used in type conversion , this is the first way
+// money =  +money; // number  this is the second way
+// money = Number(money); // Number , this is the third way
+
+console.log(money); //50
+console.log(typeof money); // number
+
+
+
+//  CONVERT NUMBER TO STRING
+
+// money = money.toString();
+// money = String(money);
+
+
+
+
+
+//  CONVERT STRING TO DECIMAL 
+// money = parseFloat(money);  // FLOAT / DECIMAL
+
+
+
  
 
 
