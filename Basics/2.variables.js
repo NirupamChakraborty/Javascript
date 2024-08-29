@@ -297,17 +297,58 @@ let desc = `This is a
      99
      99
      99
-     99`
+     99`;
 
      console.log(desc);
-     
+
+
+    //  ` ` this is also used to append strings 
+
+    let name1 = "Sonu";
+    let title = "Chakraborty";
+
+    let fullName1 = `${name1} ${title}`;
+
+    console.log(fullName1);     // Sonu Chakraborty
+
+    // let fullName1 = `${name1} ${title} anything`;
+
+    // console.log(fullName1);     // Sonu Chakraborty anything 
 
 
 
 
 
+// ..................................................
+
+
+
+
+
+let favActorFirstName = "Shreema "
+let favActorLastName = "Bhattacharjee"
+let fullname99 = favActorFirstName + " " + favActorLastName;
+console.log(fullname99);
+let fullname999 = favActorFirstName.concat(favActorLastName);
+console.log(fullname999);
+ 
+
+
+let UPPERCASE = fullname999.toUpperCase(); 
+console.log(UPPERCASE);
+
+let messege = ` my fav actress is ${UPPERCASE} 
+she is a very  good actress`;
+console.log(messege);
+ let msg = ` ${messege} her fav show is Silicon Valley`;
+ console.log(msg);
 
 
 
 
  
+
+
+
+
+
