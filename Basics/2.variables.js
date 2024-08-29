@@ -231,12 +231,76 @@ console.log(fullName);
 
 //  2. APPEND
 // firstName += " Nirupam";  Sonu Nirupam 
-console.log(firstName);
+// console.log(firstName); 
+
+
+// 3. LENGTH OF STRING IN JS
+
+console.log(firstName.length);
+
+// 4. CASES IN JS 
+
+console.log(firstName.toLowerCase());
+console.log(firstName.toUpperCase());
+
+// 5. SLICE OF STRINGS IN JS
 
 
 
 
+console.log(firstName.slice(0,1));
+   //   slice(index, postion of the letter)
 
+
+
+
+//     6. SPLIT AND JOIN IN JS 
+console.log(firstName.split(" ").join(" "));
+// THE SPLIT SPLITS THE ALPHABETS OF THE STRING INTO AN ARRAY 
+// JOIN  JOINS THE EACH ALPHABET INTO THE STRING 
+
+
+
+
+// 7. INCLUDES -> give true if an alphabet in present in our string
+console.log(firstName.includes("N"));
+
+
+// 8. TRIM -> IT TRIMS IS THERE IS ANY SPACES IN OUR STRING
+  
+
+
+// console.log(firstName.trim());
+
+
+// use of ` ` in strings  -> ` ` this is used to write multiline string including spaces
+
+
+let desc = `This is a 
+     string
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99
+     99`
+
+     console.log(desc);
+     
 
 
 
