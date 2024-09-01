@@ -68,6 +68,13 @@ if (time < 10){
 
 // .......................
 
+
+
+
+
+
+// EQUALL MEANS STRICT EQALITY
+
 let PASSWORD;
 
 if(PASSWORD === 8){
@@ -79,3 +86,63 @@ if(PASSWORD === 8){
 }else{
     console.log("PLEASE PROVIDE A PASSWORD");
 }
+
+// ...................................
+
+// SWITCH CASES
+
+
+
+
+
+// switch (expression){
+    //  case x:
+    //    print
+    //    break;
+
+    //  case y:
+    //    print
+    //    break;
+// }
+
+
+
+
+let x = '0';
+let bulb;
+
+switch(x){
+    case 0: 
+       bulb = "off";
+       console.log(bulb);
+       break;
+    case 1:
+        bulb = "on";
+        console.log(bulb);
+        break;
+    default:
+        bulb = "no value found";
+        console.log(bulb);
+
+
+}
+
+
+
+// .............................
+
+let fruit = "banana";
+ switch(fruit){
+    case banana:
+        console.log("Banana is good");
+        break;
+    case orange:
+        console.log("I'm not a fan of oranges");
+        break; 
+    case apples:
+        console.log("How you like them apples?");
+        break;
+    default:
+        console.log("I have never heard that fruit");
+           
+ }
