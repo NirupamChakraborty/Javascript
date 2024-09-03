@@ -132,17 +132,38 @@ switch(x){
 // .............................
 
 let fruit = "banana";
+
  switch(fruit){
-    case banana:
+    case 'banana':
         console.log("Banana is good");
         break;
-    case orange:
+    case 'orange':
         console.log("I'm not a fan of oranges");
         break; 
-    case apples:
+    case 'apples':
         console.log("How you like them apples?");
         break;
     default:
         console.log("I have never heard that fruit");
            
  }
+
+
+
+
+
+
+
+//  FOR LOOP  
+
+// Dry princeple
+
+//    for( initialExpression; condition; inc/dec){
+//      //code
+//    }
+
+
+for (let  i  = 0;   i <= 5;   i++) {
+    console.log("hello ", i);
+    
+}
