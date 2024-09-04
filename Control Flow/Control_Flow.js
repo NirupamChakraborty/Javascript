@@ -161,7 +161,7 @@ let fruit = "banana";
 //    for( initialExpression; condition; inc/dec){
 //      //code
 //    }
-
+/*
 
 for (let  i  = 0;   i <= 5;   i++) {
     console.log("hello ", i);
@@ -199,19 +199,19 @@ while (condition) {
 }
 
  */
-
+/*
 let i = 1;
 while (i <= 5) {
     console.log("hello", i);
     i++;   // this is the breaking condition ofr the while loop
     // if if is not given then the loop will go to a infinite while loop
 }
-
+*/
 
 // ....................................
 
 
-
+/*
 
 let i = 10;
 while (i<= 100) {
@@ -238,3 +238,51 @@ do{
     console.log("Nirupam Chakraborty",i);
     i++;
 }while (i <=400);
+
+
+
+
+
+// LOGICAL OPERATORS
+
+
+
+
+// 1. Logical AND (&&)
+// --> True if both the operands/ boolean values are true, else evalutes to False
+const a = true;
+const b = false;
+const c = 4;
+console.log(a && a); // false
+
+
+
+
+ 
+// 2. Logical OR (||)
+// --> True if either of the operands/ boolean values is true, evalutes to false if both are false
+
+console.log(a || b); // true 
+console.log(b || b ); // false  
+console.log(c > 2 || c < 2);  // true
+
+
+
+
+
+// 3. Logical NOT (!)
+
+console.log(a); //  true
+console.log(!a); // false
+
+// --> True if the operands is false and vice versa
+
+*/
+
+let Password = "Nirupam Chakraborty";
+if (Password.length >= 8 && Password.includes("Nirupam")) {
+    console.log("Valid password");
+} else {
+    console.log("Invalid Password");
+}
+// ...................
