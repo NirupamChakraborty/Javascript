@@ -166,4 +166,26 @@ let fruit = "banana";
 for (let  i  = 0;   i <= 5;   i++) {
     console.log("hello ", i);
     
+    
+}
+
+
+// nested loops
+
+for (let  i  = 0;   i <= 5;   i++) {
+    console.log("...Outer loop...", i);
+    // nested loops
+    for (let j = 0; j <= 5; j++) {
+        console.log("...inner loop...", j);
+        
+    }
+    
+}
+
+
+// priint your name and numbers from 0 to 1000 
+let name99999 = "Nirupam Chakraborty";
+for (let i = 0; i <= 1000 ; i++) {
+    console.log(i, name99999);
+    
 }
