@@ -189,3 +189,52 @@ for (let i = 0; i <= 1000 ; i++) {
     console.log(i, name99999);
     
 }
+
+
+// while loops in js
+/*
+
+while (condition) {
+    // code
+}
+
+ */
+
+let i = 1;
+while (i <= 5) {
+    console.log("hello", i);
+    i++;   // this is the breaking condition ofr the while loop
+    // if if is not given then the loop will go to a infinite while loop
+}
+
+
+// ....................................
+
+
+
+
+let i = 10;
+while (i<= 100) {
+console.log("Nirupam Chakraborty",i);
+i++;    
+}
+
+
+
+
+// DO WHILE LOOPS
+let i = 1;
+do {
+    console.log("hello" , i);
+    i++
+}while(i <= 5);
+
+
+
+
+
+let i = 20;
+do{
+    console.log("Nirupam Chakraborty",i);
+    i++;
+}while (i <=400);
