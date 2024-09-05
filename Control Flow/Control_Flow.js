@@ -285,4 +285,86 @@ if (Password.length >= 8 && Password.includes("Nirupam")) {
 } else {
     console.log("Invalid Password");
 }
+
+
+
+
+
 // ...................
+
+
+
+
+// ARRAYS IN JS
+
+
+
+
+
+// ARRAYS --> 0 indexed 
+const numbersArray = [1,2,3,4,5];
+console.log(numbersArray);
+         
+const arrString = ["eat", "sleep", "code", "apply", "get job"];
+console.log(arrString); // This will print the entire array
+
+//  Accessing the items in array
+
+console.log(arrString[3]);
+console.log(arrString[4]);
+console.log(arrString[0]);
+console.log(arrString[1]);
+console.log(arrString[2]);
+
+// NESTED ARRAY || Two dimensional array
+const arrNested = ["one", ["two", "three"], "four", "five"];
+console.log(arrNested[1][1]);
+
+// const arr = [{id:1},];
+// console.log(arr);
+
+// ..........................
+
+const favSingers = ["Sonu", "Arijit", "Kishore"];
+console.log(favSingers);
+
+const favNumber = [5,77,88,99,999];
+console.log(favNumber);
+
+const mixedArray =["String",["AnotherArray"], 123, true];
+console.log(mixedArray[0]);
+console.log(mixedArray[1][1]);
+console.log(mixedArray[2]);
+// console.log(mixedArray[...PASSWORD...]);
+console.log(mixedArray[3]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
