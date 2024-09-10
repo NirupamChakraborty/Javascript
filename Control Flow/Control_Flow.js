@@ -333,7 +333,7 @@ console.log(favNumber);
 
 const mixedArray =["String",["AnotherArray"], 123, true];
 console.log(mixedArray[0]);
-console.log(mixedArray[1][1]);
+console.log(mixedArray[1]); //console.log(mixedArray[1][1]);
 console.log(mixedArray[2]);
 // console.log(mixedArray[...PASSWORD...]);
 console.log(mixedArray[3]);
@@ -341,6 +341,65 @@ console.log(mixedArray[3]);
 
 
 
+// .....................
+
+
+// Array Methods  
+
+const arrFruits = [
+    "apples",
+    "pomegranate",
+    "mango",
+    "strawberry",
+    "pineapple",
+    "grapefruit"
+];
+
+
+
+
+console.log(arrFruits);
+console.log(arrFruits.length);  // 6
+
+// Push --> it pushes item at the end of the array
+arrFruits.push("Banana");
+
+console.log(arrFruits);
+console.log(arrFruits.length);  // 71
+console.log(arrFruits);
+
+// Pop --> It removes the last element of an array and returns the removed element 
+arrFruits.pop();
+console.log(arrFruits);
+
+// Shift --> it removes the first element fromn an array and returns it. if the array is empty, undefined is returned and the array is not modified
+arrFruits.shift();
+console.log(arrFruits);
+
+//  Unshift --> ELEMENTS TO INSERT AT THE Start of the array. Inserts new elements at the start of an array , and returns the new length of the array.
+arrFruits.unshift("orange");
+
+const newFruits = ["apples", "pomegranate", "mango"];
+const moreFruits = ["Strawberries", "pineapple", "grapefruit"];
+const totalFruits = newFruits.concat(moreFruits);
+
+console.log(totalFruits); // this adds items iof both the arrays hence totalFruits contains 6  elements
+
+const pl = ["Javascript","python","Golang","php"];
+const numbers = [1,2,3,4,5];
+
+console.log(pl.includes.("Golang")); // true
+
+// console.log(pl.includes.("Dart")); // false 
+console.log(pl.join("-----")); // Javascript-----python-----Golang-----php
+
+console.log(pl.reverse()); // it reverses the order of the array
+
+console.log(pl.slice(0,1)); // Javascript   // display from 0 index and just before 1 index
+console.log(pl.slice(0,2)); // Javascript Python
+
+console.log(numbers);
+console.log(nukbers.sort());
 
 
 
