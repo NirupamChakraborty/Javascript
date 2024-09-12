@@ -356,7 +356,7 @@ const arrFruits = [
 ];
 
 
-
+/*
 
 console.log(arrFruits);
 console.log(arrFruits.length);  // 6
@@ -400,9 +400,81 @@ console.log(pl.slice(0,2)); // Javascript Python
 
 console.log(numbers);
 console.log(nukbers.sort());
+*/
+// .........................
+
+// OBJECTS --> {label or key : value};
+
+const person  = { 
+    firstName: "Nirupam",
+    lastName: "Chakraborty",
+    age: 99,
+    location: ["Planet", "Earth"],
+    isProgramer : true,
+};
+
+console.log(person);
+console.log(typeof person);
+
+
+// const arr = [];
+// console.log(typeof arr); // object
+
+// Accessing items from ur object
+console.log(person.age);
+console.log(person.isProgramer);
+
+// or we can also access by 
+console.log(person["age"]); // 99
+
+
+// to add new properties to the objects
+
+person.middleName = "Naru";
+console.log(person);
+
+// to delete something from the object use reserve keyword delete
+
+delete person.location;
+console.log(person);
+
+// ..................................
+
+const car = {
+    type: "SUV",
+    model: "bmw",
+    clolor: "white",
+};
+
+console.log(typeof car);
+
+console.log(car.type = "toyota"); 
+car.wheels = "alloy";
+console.log(car);
 
 
 
+
+
+// ...................................
+
+
+
+
+
+// FUNCTIONS
+
+
+
+
+function greet() {
+    console.log("Hello");
+}
+
+// call , run , execute the function 
+greet();
+greet();
+greet();
 
 
 
