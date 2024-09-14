@@ -465,7 +465,7 @@ console.log(car);
 // FUNCTIONS
 
 
-
+//  Function declaration
 
 function greet() {
     console.log("Hello");
@@ -477,10 +477,36 @@ greet();
 greet();
 
 
+// function parameter
+
+function sayHello(name1){
+// console.log("hello ${name1}");
+console.log("hello" + " " + name1);
+}
+sayHello("Sonu");
+sayHello("Nirupam");
+
+// return keyword in function
+
+function add(x,y) {
+    return x + y; 
+}
+const ans1 = add(90,99);
+console.log(ans1);
+
+const ans2 = add(90,999);
+console.log(ans2);
 
 
+// .................................
+ 
+function myFunction(x,y) {
+    return x*y;
+    
+}
 
-
+const myAns = myFunction(5,99);
+console.log(myAns);
 
 
 
