@@ -682,12 +682,69 @@ console.log(data);
 const jsonString = JSON.stringify(data);
 console.log(jsonString);
 
+
+//  PARSED  converts string into json data
 const parsedObject = JSON.parse(jsonString);
 
 console.log(parsedObject);
 
 
+// date and time in js
+// year, months , day, hours, minutes, seconds, miliseconds
+const currDate = new Date();
+console.log(currDate);
 
+const cdate = new Date(7,7,7,7,8);
+console.log(cdate);
+
+const date = new Date();
+
+const year = date.getFullYear();
+const month = date.getMonth();
+const Day = date.getDay();
+console.log(year);
+console.log(month);
+console.log(Day);
+
+
+console.log(date.toDateString());
+console.log(date.toISOString());
+console.log(date.toLocaleString());
+
+// setdate and get date
+date.setDate(date.getDate() + 1);
+console.log(date);
+
+
+// setInterval -> used rto execute code at specific time interval
+
+// setInterval(
+//     () => console.log('This function will be executed every 2 seconds' ), 2000
+// );
+
+
+
+
+
+// setTimeout
+
+setTimeout(function(){
+    console.log("this function will be executed after 3 seconds")
+}, 3000)
+
+
+// setInterval will run our code4 again and again untill we use clear Interval
+
+
+// stop the interval after 10 seconds
+const intervalId = setInterval(function(){
+ console.log("this function is being executed at the interval");
+}, 1000);
+
+setTimeout(function(){
+    clearInterval(intervalId)
+    console.log("Interval stop");
+}, 10000)
 
 
 
