@@ -508,14 +508,57 @@ function myFunction(x,y) {
 const myAns = myFunction(5,99);
 console.log(myAns);
 
+// Function declaration 
+sayHello("Nirupam");   // we can call the function before declaration 
+function sayHello(name1){
+    // console.log("hello ${name1}");
+    console.log("hello" + " " + name1);
+    }
+   // sayHello("Sonu");
 
 
 
 
 
 
+//  function Expression   
+// it means storing a function in a variable
+// we cannot call the functio before exression
 
 
+const greetings1 = function(user){
+    console.log("hello" +" "+ user);
+}
+
+greetings1("Induamti");
+
+
+
+
+//  CALLbc_ak function
+// when we provide function as an argument to other
+// function that function is known as  CALLbc_ak function
+
+function showCallFunc (fn){
+    const value = 10;
+    fn(value);
+}
+showCallFunc(function (value){
+    console.log(value);
+});
+
+
+
+function greet1(name, cb){
+    console.log("hello" + " " + name);
+    cb()
+}
+function cb(){
+    console.log(" cb function");
+
+}
+
+greet1("Jimjam", cb)
 
 
 
