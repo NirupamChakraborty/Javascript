@@ -561,6 +561,98 @@ function cb(){
 greet1("Jimjam", cb)
 
 
+// greet1("Jimjam", functiom cb(){
+//     console.log(" cb function");
+
+// }
+// )
+
+// both works
+
+
+
+
+// .............................
+// function showCall(fn){
+//  const value1 = 10;
+//  fn(value1);
+// }
+// function showCall( functio (value1){
+//     console.log(value1);
+// });
+
+
+
+
+// ........................
+
+
+
+
+
+//  SCOPE
+
+//scope in js refers to the current contextof code, which determines the accessibility of variables  to Javascript
+// there are two types
+// global scope variables are those declared outside of the block.
+
+// local scope variables are those declared inside of a block.
+
+let textMsg = "hello"; // global variable
+{
+    let msg = "world"; //local  variable
+}
+console.log(textMsg);
+
+// local variable
+
+function showMsg() {
+    let textMsg = "tumse kiran dhup ki"; // local variable
+    console.log(textMsg);
+}
+
+showMsg();
+
+//....................
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i); // local variable
+    
+// }
+// console.log(i); //GLOBALLY ERROR
+
+
+
+// Methods in js are when functions are passed in objects , these are called object methods
+
+function greet2(){
+    return 'hello my name is ${person2.name2} I am  ${person2.age} years old';
+}
+
+const person2 = {
+    name2 : "jimjam",
+    age : 99,
+    greet2,
+};
+console.log(person2.greet2());
+
+
+
+
+
+
+const person1 = {
+    name3 : "ani",
+    age : "99",
+    greet5: function(){
+        return 'hello, my name is ${person1.name3} and I am ${person1.age} years old
+        ';
+    },
+};
+
+console.log(person1.greet5());
+
+
 
 
 
