@@ -641,18 +641,50 @@ console.log(person2.greet2());
 
 
 
-const person1 = {
-    name3 : "ani",
-    age : "99",
-    greet5: function(){
-        return 'hello, my name is ${person1.name3} and I am ${person1.age} years old
-        ';
+// const person1 = {
+//     name3 : "ani",
+//     age : "99",
+//     greet5: function(){
+//         return 'hello, my name is ${person1.name3} and I am ${person1.age} years old';
+//     },
+// };
+
+// console.log(person1.greet5());
+
+
+
+// JSON IN JS  MEANS JAVASCRIPT OBJECT NOTATION
+//  YOU MUST PEROVIDE DOUBLE QUOTES
+
+// {
+//     "name" : we can give any name
+// }
+
+// JSON
+
+const data = {
+    "name" : "jim",
+    "age": 20,
+    "email" : "js@GMAIL.COM",
+    "isSubscribed" : true,
+    "hobbies" : ["reading", "coding", "sleeping"],
+
+    "address" : {
+        "city" : "Digboi",
+        "state" : "ASSAM"
     },
 };
 
-console.log(person1.greet5());
 
+// JSON.stringify()  ==> converst json data into  string
+console.log(data);
 
+const jsonString = JSON.stringify(data);
+console.log(jsonString);
+
+const parsedObject = JSON.parse(jsonString);
+
+console.log(parsedObject);
 
 
 
