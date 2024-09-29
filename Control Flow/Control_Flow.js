@@ -626,7 +626,8 @@ showMsg();
 // Methods in js are when functions are passed in objects , these are called object methods
 
 function greet2(){
-    return 'hello my name is ${person2.name2} I am  ${person2.age} years old';
+   // return 'hello my name is ${person2.name2} I am  ${person2.age} years old'; dont use it use this instead
+   return "my name is"+ this.name2 + " and my age is " +this.age
 }
 
 const person2 = {
@@ -744,8 +745,7 @@ const intervalId = setInterval(function(){
 setTimeout(function(){
     clearInterval(intervalId)
     console.log("Interval stop");
-}, 10000)
-
+},10000);
 
 
 
